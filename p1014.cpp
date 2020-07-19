@@ -40,6 +40,7 @@ int main()
         if (((c[i] >= 'A' && c[i] <= 'Z') || (c[i] >= 'a' && c[i] <= 'z')) && c[i] == d[i])
         {
             i < 10 ? cout << 0 << i << endl : cout << i << endl;
+            return 0;
         }
     }
 }

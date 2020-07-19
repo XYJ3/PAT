@@ -14,7 +14,7 @@ int main()
         cin >> id >> score;
         a[id] += score;
     }
-    for (int i = 0; i <= N; i++)  // 测试点2 i<=N
+    for (int i = 0; i <= 200001; i++)  // 测试点2 i<=N
     {
         if (a[i] >= maxs)
         {
